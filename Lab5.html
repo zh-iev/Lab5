@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лаба №5</title>
+    <script src="Lab5.js"></script>
+    <style>
+        table, tr,td {
+        border-collapse: collapse; border: 1px solid black;
+    }
+        td,tr {height: 20px; width: 20px; text-align: center}
+    </style>
+</head>
+<body>
+<!--1 задание-->
+    <p><button onclick="alert('Иевлев')">Фамилия</button></p>
+<!--2 задание-->
+    <p><input id="txt">
+        <input type="button" value="OK" onclick="pole()">
+    </p>
+<!--3 задание-->
+    <p>
+        <textarea id="1st"></textarea>
+        <textarea id="2nd"></textarea>
+        <p><input type="button" value="Copy" onclick="copy()" style="background: greenyellow">
+        <input type="button" value="Clear" onclick="clearing()" style="background: white"></p>
+    </p>
+<!--4 задание-->
+    <p>
+        Количество столбцов: <input type="text" id="3rd"><br><br>
+        Количество строк: <input type="text" id="4ed"><br><br>
+        <input type="button" value="Создать таблицу" onclick="createtable()">
+        <div id="block_table"></div>
+    </p>
+</body>
+</html>
