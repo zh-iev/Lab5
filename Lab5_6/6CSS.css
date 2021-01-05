@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (width: 1920px) {
+    #strelka {
+        position: fixed;
+        z-index: 100;
+        right: 0;
+        bottom: 0;
+        display: none;
+    }
+    .blue {
+        width: 33%;
+    }
+    .blue2 {
+        width: 23%;
+    }
+}
+@media screen and (width: 1366px) {
+    #strelka {
+        position: fixed;
+        z-index: 100;
+        right: 0;
+        bottom: 0;
+        cursor: pointer;
+        display: none;
+    }
+    .blue {
+        width: 33%;
+    }
+    .blue2 {
+        width: 23%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .blue {
+        width: 40%;}
+    .blue2 {
+        width: 40%;
+    }}
+@media screen and (max-width: 720px) {
+    .blue {
+        width: 50%;
+    }
+    .blue2 {
+        width: 50%;
+    }
+    input {
+        display: none;
+    }
+}
+
+#head1 {
+    display: flex;
+    height: 50px;
+    background: #a53131;
+    color: white;
+    font-weight: bold;
+}
+nav {
+    margin: auto;
+}
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+input {
+    position: relative;
+    margin-top: 13px;
+    margin-right: 200px;
+    height: 25px;
+}
+h1,h2 { margin: 25px}
+#head2 {
+    height: 250px;
+    margin-top: auto;
+    padding-left: 50px;
+    color: white;
+    background: url("https://on-desktop.com/ru/images/wp.php?path=/wps/Backgrounds_Round_glare__red_background_100077_.jpg&wp=5");
+    background-size: 100%;
+}
+header {
+    position: relative;
+    padding: 50px;
+}
+.blue {
+    display: inline-block;
+    margin: auto;
+}
+
+.blue2 {
+    display: inline-block;
+    margin: auto;
+}
